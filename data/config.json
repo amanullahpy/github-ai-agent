@@ -1,0 +1,61 @@
+{
+  "repositories_per_run": 5,
+  "scoring_weights": {
+    "documentation": 0.20,
+    "metadata": 0.10,
+    "discoverability": 0.15,
+    "github_standards": 0.15,
+    "developer_experience": 0.15,
+    "maintenance": 0.15,
+    "presentation": 0.10
+  },
+  "default_permissions": {
+    "read_repository": true,
+    "read_code": true,
+    "modify_readme": true,
+    "modify_metadata": true,
+    "modify_topics": true,
+    "modify_github_templates": true,
+    "modify_docs": true,
+    "modify_source_code": false,
+    "modify_tests": false,
+    "modify_dependencies": false,
+    "create_branch": true,
+    "create_commit": true,
+    "create_pull_request": true,
+    "merge_pull_request": false
+  },
+  "repository_filters": {
+    "exclude_forks": true,
+    "exclude_archived": true,
+    "included_repos": [],
+    "excluded_repos": [],
+    "high_priority_repos": []
+  },
+  "protected_file_patterns": [
+    "*.py",
+    "*.ts",
+    "*.js",
+    "*.tsx",
+    "*.jsx",
+    "*.go",
+    "*.rs",
+    "*.java",
+    "*.c",
+    "*.cpp",
+    "*.cs",
+    "*.rb",
+    "*.php",
+    "*.sql"
+  ],
+  "allowed_fixable_patterns": [
+    "README.md",
+    "readme.md",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md",
+    "LICENSE",
+    "LICENSE.md",
+    ".github/**"
+  ]
+}
